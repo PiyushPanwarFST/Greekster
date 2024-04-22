@@ -103,21 +103,6 @@ const Scroll = () => {
 
   return (
 
-    // <div className={styles.container}>
-    //     <div className={styles.scrollingSection}>
-    //         {
-    //             arr.map((ele, i) => (
-    //                 <div key={i} className={styles.box}>
-    //                     <img src={ele.employ} alt="jb"/>
-    //                     <p>{ele.company}</p>
-    //                 </div>
-    //             ))
-    //         }
-    //     </div>
-    // </div>
-
-
-
       <div className={styles.square}>
         <div className={styles.sq}>
           {arr.map((ele, i) => (
