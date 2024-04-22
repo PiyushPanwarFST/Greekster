@@ -1,0 +1,90 @@
+section .para1, .para2{
+    font-size: 3.5rem;
+
+}
+
+.image{
+    margin-top: 7rem;
+    width: 30vw;
+    border-radius: 1rem;
+}
+
+
+main{
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+    background-color: rgb(16, 30, 27);
+
+}
+
+.para1, .para2{
+    font-size: 3rem;
+    font-weight: 600;
+   
+}
+
+.para2{
+    color:#27b374;
+}
+
+main p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.box{
+    display: flex;
+    background-color: rgb(24, 37, 34);
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    width: 50vw;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.box1, .box2, .box3, .box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.num{
+    color:#27b374;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 0.8rem;
+    color: rgb(195, 196, 197);
+    padding-bottom: 0.6rem;
+
+}
+
+.icon{
+    padding-left: 0.5rem;
+}
+
+.hero{
+    display: flex;
+    gap: 8rem;
+}
+
+.btn2{
+    background-color:#27b374;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 2.8rem;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,54 @@
+.square {
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 3.5rem;
+  padding-left: 2rem;
+  display: flex;
+  border: 1px white;
+  gap: 1rem;
+  background-color: rgb(16, 30, 27);
+
+
+  overflow: scroll;
+}
+
+.sq {
+  padding-top: 1.3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.sq img {
+    padding: 1rem;
+  width: 6vw;
+  border-radius: 0.5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 15vh;
+  background-color: rgb(24, 37, 34);
+
+  /* background-color: rgb(24, 41, 26); */
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping of the boxes */
+  animation: scrollAnimation 40s linear infinite; /* Add animation */
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(-1200%));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

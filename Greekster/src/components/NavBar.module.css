@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    gap: 15vh;
+    background-color: rgb(23, 30, 27);
+    padding-left: 4.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.Name{
+    color:#27b374;
+
+}
+
+.Name, .Courses{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 9vh;
+}
+
+.Courses{
+    font-size: 1rem;
+}
+
+.btn1{
+    background-color: rgb(23, 30, 27);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 2rem;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    color: rgb(5, 154, 5);
+}
+
+.icon{
+    padding-left: 5rem;
+}
+
+.btn2{
+    background-color:#27b374;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 2.8rem;
+    margin-top: 2vh;
+    padding-top: 0.2vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    border: none;
+}
