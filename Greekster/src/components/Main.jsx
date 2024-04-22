@@ -6,10 +6,13 @@ const Main = () => {
     <>
     <main>
         <div className={styles.hero}>
+            {/* Information regarding the company */}
             <section className={styles.secton1}>
                 <p className={styles.para1}>India's Tech  School  for  the</p>
                 <p className={styles.para2}>Future  World !</p>
                 <p>Become a top 1% professional in Full Stack Development and Data Science</p>
+
+                {/* Placement data of the company and avg package */}
                 <div className={styles.box}>
                     <div className={styles.box1}>
                     <p className={styles.num}>1000 +</p>
@@ -29,10 +32,14 @@ const Main = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Image section of the greekster team */}
             <section className={styles.secton2}>
                 <img src="https://images.geekster.in/meta/header.png" alt="image" className={styles.image}></img>
             </section>   
         </div>
+
+        {/* Connecting with the team of greekster */}
     <button className={styles.btn2}>Request a Callback <i className={styles.icon} class= "fa-solid fa-phone"></i></button>
     </main>    
     </>

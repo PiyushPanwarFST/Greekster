@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Scroll.module.css";
 
 const Scroll = () => {
+
+  // Array of Objects each obj is Alumini of Geekster
   let arr = [
     {
       employ:
@@ -103,21 +105,7 @@ const Scroll = () => {
 
   return (
 
-    // <div className={styles.container}>
-    //     <div className={styles.scrollingSection}>
-    //         {
-    //             arr.map((ele, i) => (
-    //                 <div key={i} className={styles.box}>
-    //                     <img src={ele.employ} alt="jb"/>
-    //                     <p>{ele.company}</p>
-    //                 </div>
-    //             ))
-    //         }
-    //     </div>
-    // </div>
-
-
-
+    // box for the image and company of Alumini
       <div className={styles.square}>
         <div className={styles.sq}>
           {arr.map((ele, i) => (
